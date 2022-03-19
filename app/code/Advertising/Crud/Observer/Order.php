@@ -24,7 +24,6 @@ class Order implements ObserverInterface
 
         $order = $observer->getEvent()->getOrder();
         $orderId = $order->getEntityId();
-        $logger->info($orderId);
 
         $custom = $this->customModel;
         $custom->setCustomField1($orderId)
