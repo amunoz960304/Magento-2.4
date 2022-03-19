@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Advertising\Crud\Api\CustomRepositoryInterface" type="Advertising\Crud\Model\CustomRepository"/>
+	<preference for="Advertising\Crud\Api\Data\CustomInterface" type="Advertising\Crud\Model\Custom"/>
+	<preference for="Advertising\Crud\Api\Data\CustomSearchResultsInterface" type="Magento\Framework\Api\SearchResults"/>
+</config>
